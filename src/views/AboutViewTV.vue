@@ -250,10 +250,15 @@ h2 {
 }
 /*/mobile/*/
 @media (max-width: 500px) {
+  #photo {
+    position: relative;
+    align-self: center;
+    width: 18rem;
+    height: 400px;
+  }
   #conphot {
     align-self: center;
     position: relative;
-    left: 0px;
     top: 20px;
   }
   /* contener ditelse movie */

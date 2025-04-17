@@ -98,11 +98,6 @@ export default {
   },
   methods: {
     add(item) {
-      document.querySelectorAll("#add1").forEach((el) => {
-        el.onclick = () => {
-          el.style.backgroundColor = "red";
-        };
-      });
       this.AdditemL(item);
     },
     ...mapActions(ListsStore1, ["AdditemL"]),
